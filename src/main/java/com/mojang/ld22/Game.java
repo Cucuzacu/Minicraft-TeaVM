@@ -156,7 +156,7 @@ public class Game {
         }
 
         HTMLDocument doc = HTMLDocument.current();
-HTMLImageElement img = (HTMLImageElement) doc.createElement("img");
+        HTMLImageElement img = (HTMLImageElement) doc.createElement("img");
 
         img.addEventListener("load", evt -> {
             int imgWidth = img.getNaturalWidth();
