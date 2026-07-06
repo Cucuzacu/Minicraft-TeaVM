@@ -4,6 +4,7 @@
 
 ## Building(on Windows)
 
+```bash
 git clone https://github.com/Cucuzacu/Minicraft-TeaVM
 cd Minicraft-TeaVM
 setjavapath
