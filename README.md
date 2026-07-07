@@ -2,6 +2,8 @@
 
 *   **You need Java 17 to compile, otherwise it won't work**
 
+Play it here -> https://cucuzacu.github.io/Games/MiniCraft
+
 ## Building(on Windows)
 
 git clone https://github.com/Cucuzacu/Minicraft-TeaVM
