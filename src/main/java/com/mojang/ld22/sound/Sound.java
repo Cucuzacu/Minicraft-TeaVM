@@ -46,7 +46,7 @@ public class Sound {
 	@JSBody(params = { "name" }, script = 
 		"var buffer = window.audioBufferCache[name];" +
 		"if (buffer && buffer !== 'loading') {" +
-		"    if (window.audioCtx.state === 'suspended') window.audioCtx.resume();" + // Fixes Chrome/Safari autoplay policies
+		"    if (window.audioCtx.state === 'suspended') window.audioCtx.resume();" +
 		"    var source = window.audioCtx.createBufferSource();" +
 		"    source.buffer = buffer;" +
 		"    source.connect(window.audioCtx.destination);" +
